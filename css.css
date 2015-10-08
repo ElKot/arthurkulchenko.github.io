@@ -2,6 +2,10 @@ div{
 	width: 200px;
 	height: 200px;
 	margin: 10px;
-	display: block;
+	display: inline-block;
 	background: green;
+}
+body{
+	background: url(g.jpg);
+	background-size: cover;
 }
