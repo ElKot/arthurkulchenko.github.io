@@ -1,10 +1,11 @@
 $(document).ready(
 	function(){
-		$('div').on('click',function() {
-			$(this).fadeOut();
+		var istzelle = $('<div id="iszelle"></div>');
+		$('div').find(".zelle").on('click',function() {
+			$(this).append(istzelle);
 		});
 
-		$('div').blurjs({ source: 'body', radius: 10, overlay: 'rgba(255,255,255,0.4)' });
+		// $('.spilebrett').blurjs({ source: 'body', radius: 10, overlay: 'rgba(255,255,255,0.4)' });
 	
 	});
 
