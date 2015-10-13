@@ -1,1 +1,2 @@
-This will be GO game!
+#This will be GO game!
+on js
